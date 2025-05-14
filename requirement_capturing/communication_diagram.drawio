@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.4">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
-    <mxGraphModel dx="2696" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1700" pageHeight="1500" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3488" dy="2144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1700" pageHeight="1500" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-1" value="member&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-1" value="Member&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="240" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5Dsq9sax4IMBlSlcCFGJ-3" value=":AddMemberUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -163,7 +163,7 @@
             <mxGeometry x="1510" y="230" width="80" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="2.1: Login()" placeholders="1" name="Variable" id="5Dsq9sax4IMBlSlcCFGJ-101">
+        <UserObject label="2.1: login()" placeholders="1" name="Variable" id="5Dsq9sax4IMBlSlcCFGJ-101">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
             <mxGeometry x="1910" y="232" width="130" height="20" as="geometry" />
           </mxCell>
@@ -225,7 +225,7 @@
             <mxGeometry x="350" y="1040" width="80" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="2.1: Logout()" placeholders="1" name="Variable" id="5Dsq9sax4IMBlSlcCFGJ-118">
+        <UserObject label="2.1: logout()" placeholders="1" name="Variable" id="5Dsq9sax4IMBlSlcCFGJ-118">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
             <mxGeometry x="750" y="1040" width="130" height="20" as="geometry" />
           </mxCell>
@@ -238,7 +238,7 @@
         <mxCell id="5Dsq9sax4IMBlSlcCFGJ-148" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1400" y="951" width="660" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-123" value="&lt;div&gt;:admin&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="5Dsq9sax4IMBlSlcCFGJ-148">
+        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-123" value="&lt;div&gt;:Admin&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="5Dsq9sax4IMBlSlcCFGJ-148">
           <mxGeometry y="7.94871794871795" width="22.75862068965517" height="47.69230769230769" as="geometry" />
         </mxCell>
         <mxCell id="5Dsq9sax4IMBlSlcCFGJ-124" value=":AddBikeUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5Dsq9sax4IMBlSlcCFGJ-148">
@@ -358,7 +358,7 @@
         <mxCell id="5Dsq9sax4IMBlSlcCFGJ-157" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="240" y="1631" width="670" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-158" value="&lt;div&gt;:member&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="5Dsq9sax4IMBlSlcCFGJ-157">
+        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-158" value="&lt;div&gt;:Member&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="5Dsq9sax4IMBlSlcCFGJ-157">
           <mxGeometry y="7.94871794871795" width="22.75862068965517" height="47.69230769230769" as="geometry" />
         </mxCell>
         <mxCell id="5Dsq9sax4IMBlSlcCFGJ-159" value=":RentBikeUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5Dsq9sax4IMBlSlcCFGJ-157">
@@ -480,7 +480,7 @@
             <mxGeometry x="820" y="1793" width="137.86" height="18.97" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-185" value=":member&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-185" value=":Member&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1400" y="1600" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5Dsq9sax4IMBlSlcCFGJ-186" value=":RentBikeListUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
