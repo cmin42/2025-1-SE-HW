@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.4">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
-    <mxGraphModel dx="1453" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1700" pageHeight="1500" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3488" dy="2144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1700" pageHeight="1500" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -179,29 +179,29 @@
           </mxCell>
         </UserObject>
         <mxCell id="5Dsq9sax4IMBlSlcCFGJ-106" value=":LogoutUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1066" width="120" height="60" as="geometry" />
+          <mxGeometry x="357.86" y="930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-107" value=":Session" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="1066" width="120" height="60" as="geometry" />
+        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-107" value=":Logout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="837.86" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5Dsq9sax4IMBlSlcCFGJ-110" value="" style="endArrow=none;html=1;rounded=0;entryX=0.11;entryY=0.285;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5Dsq9sax4IMBlSlcCFGJ-107">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="1095.57" as="sourcePoint" />
-            <mxPoint x="500" y="1095.57" as="targetPoint" />
+            <mxPoint x="717.86" y="959.5699999999999" as="sourcePoint" />
+            <mxPoint x="477.86" y="959.5699999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5Dsq9sax4IMBlSlcCFGJ-114" value="" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820" y="1116.8695652173915" as="sourcePoint" />
-            <mxPoint x="540" y="1116.8695652173915" as="targetPoint" />
+            <mxPoint x="797.86" y="980.8695652173915" as="sourcePoint" />
+            <mxPoint x="517.86" y="980.8695652173915" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5Dsq9sax4IMBlSlcCFGJ-116" value="&lt;b&gt;sd &lt;/b&gt;로그아웃" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=90;height=30;" vertex="1" parent="1">
           <mxGeometry x="160" y="840" width="1040" height="520" as="geometry" />
         </mxCell>
-        <UserObject label="1. displayLogoutResult()" placeholders="1" name="Variable" id="5Dsq9sax4IMBlSlcCFGJ-119">
+        <UserObject label="3. displayLogoutResult()" placeholders="1" name="Variable" id="5Dsq9sax4IMBlSlcCFGJ-119">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
-            <mxGeometry x="612" y="1126" width="138" height="20" as="geometry" />
+            <mxGeometry x="589.86" y="990" width="138" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="5Dsq9sax4IMBlSlcCFGJ-148" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -533,6 +533,28 @@
         <UserObject label="3: displayLoginResult()" placeholders="1" name="Variable" id="5Dsq9sax4IMBlSlcCFGJ-210">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
             <mxGeometry x="1921" y="328" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="5Dsq9sax4IMBlSlcCFGJ-215" target="5Dsq9sax4IMBlSlcCFGJ-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-215" value=":Session" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="837.86" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Dsq9sax4IMBlSlcCFGJ-217" value="" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="919" y="1029.9995652173916" as="sourcePoint" />
+            <mxPoint x="919" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="2. resetCurrentUser()" placeholders="1" name="Variable" id="5Dsq9sax4IMBlSlcCFGJ-218">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="920" y="1110" width="130" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="1. getCurrentUser()" placeholders="1" name="Variable" id="5Dsq9sax4IMBlSlcCFGJ-219">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="925" y="1090" width="110" height="20" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
