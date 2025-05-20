@@ -9,23 +9,33 @@ using namespace std;
 // 함수 선언
 void doTask(ifstream& in_fp, ofstream& out_fp);
 
+// 메인 함수
+// 파일 입출력을 초기화하고 기본 사용자를 설정한 후 작업을 수행한다.
+// 반환값: 프로그램 종료 코드(0: 정상 종료)
 int main()
 {
     // 파일 입출력을 위한 초기화
+    // INPUT_FILE_NAME과 OUTPUT_FILE_NAME은 common.h에 정의되어 있다.
     ifstream in_fp(INPUT_FILE_NAME);
     ofstream out_fp(OUTPUT_FILE_NAME);
 
-    // 초기 사용자 설정
+    // 기본 관리자 계정 생성
     UserCollection::initialize();
 
+    // 메뉴 처리 및 작업 수행
     doTask(in_fp, out_fp);
 
+    // 파일 스트림 닫기
     out_fp.close();
     in_fp.close();
 
     return 0;
 }
 
+// 메뉴에 따라 적절한 기능을 수행하는 함수
+// 입력 파일에서 메뉴 레벨을 읽고, 해당 메뉴에 맞는 컨트롤러를 실행한다.
+// in_fp: 입력 파일 스트림
+// out_fp: 출력 파일 스트림
 void doTask(ifstream& in_fp, ofstream& out_fp)
 {
     // 메뉴 파싱을 위한 level 구분을 위한 변수
@@ -40,6 +50,7 @@ void doTask(ifstream& in_fp, ofstream& out_fp)
     RentBike rentBikeControl;
     RentBikeList rentBikeListControl;
 
+    // 프로그램 종료 전까지 메뉴 처리를 반복한다.
     while (!is_program_exit)
     {
         // 입력파일에서 메뉴 숫자 2개를 읽기

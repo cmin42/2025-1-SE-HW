@@ -7,14 +7,15 @@
 #define OUTPUT_FILE_NAME "output.txt"
 
 // 전방 선언
-class User;
-class Admin;
-class Member;
-class Bike;
-class BikeCollection;
-class UserCollection;
-class Session;
+class User;            // 사용자 클래스
+class Admin;           // 관리자 클래스 
+class Member;          // 회원 클래스
+class Bike;            // 자전거 클래스
+class BikeCollection;  // 자전거 컬렉션 클래스
+class UserCollection;  // 사용자 컬렉션 클래스
+class Session;         // 세션 클래스
 
+// 표준 라이브러리
 #include <string>
 #include <vector>
 #include <map>
